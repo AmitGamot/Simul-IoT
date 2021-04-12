@@ -1,0 +1,7 @@
+For Blynk Server-
+1.) go to C:\Users\lenovo\Documents\Arduino\libraries\Blynk\scripts
+2.) open cmd here
+3.) Run following commands:
+        3.1) dir
+        3.2) blynk-ser.bat -c COM1 -p 8442
+4.) Enjoy!

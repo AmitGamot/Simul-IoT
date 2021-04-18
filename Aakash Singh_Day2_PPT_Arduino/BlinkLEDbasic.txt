@@ -1,0 +1,13 @@
+void setup() { //SETTING UP THE STUFF REQUIRED
+  // put your setup code here, to run once:
+  pinMode(13,OUTPUT);
+}
+
+void loop() { //LOOPS THE CODE
+  // put your main code here, to run repeatedly:
+  digitalWrite(13,HIGH); //Glowing the LED //Line 1
+  delay(2000); //Wait for 2000ms //Line 2
+  digitalWrite(13,LOW);//Line 3 //Switch off the LED
+  delay(1000);//Line 4 1000ms = 1sec 
+
+}
